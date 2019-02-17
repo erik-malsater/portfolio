@@ -2,7 +2,7 @@
 .portfolioHeader{
     width: 100vw;
     height: 100vh;
-	background-color: yellow;
+	background-color: $primaryColor1;
 	overflow: auto;
 }
 
@@ -27,11 +27,6 @@
 	height: 15em;
 	width: 18em;
 	background-color: red;
-}
-
-.aboutMeHeader{
-	text-align: center;
-	font-size: 3em;
 }
 
 .aboutMeParagraph{
