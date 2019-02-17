@@ -1,10 +1,12 @@
 
 .portfolioHeader{
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
 	background-color: $primaryColor1;
     overflow: auto;
     color: white;
+    position: relative;
+    z-index: 100;
 
     .profileImageFrame{
         height: 200px;
@@ -32,14 +34,7 @@
     .aboutMeParagraph{
         margin-top: 0.5em;
     }
-    
-    .anchorButtonTest{
-        margin: 4vh auto 0 auto;
-        height: 60px;
-        width: 100px;
-        background-color: orange;
-        text-align: center;
-    }
+
 }
 
 
