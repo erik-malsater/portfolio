@@ -3,7 +3,8 @@
     width: 100vw;
     height: 100vh;
 	background-color: $primaryColor1;
-	overflow: auto;
+    overflow: auto;
+    color: white;
 }
 
 .profileImageFrame{
@@ -21,12 +22,12 @@
 }
 
 .aboutMeTextContainer{
-	margin: 4vh auto 0 auto;
-	padding: 1em;
+	margin: 3vh auto 0 auto;
+	padding: 0.5rem;
 	box-sizing: border-box;
 	height: 15em;
-	width: 18em;
-	background-color: red;
+	width: 90vw;
+	background-color: $secondaryColor1;
 }
 
 .aboutMeParagraph{
