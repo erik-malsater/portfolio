@@ -1,0 +1,47 @@
+
+.portfolioHeader{
+    width: 100vw;
+    height: 100vh;
+	background-color: yellow;
+	overflow: auto;
+}
+
+.profileImageFrame{
+    height: 200px;
+    width: 200px;
+	overflow: hidden;
+	margin: 4vh auto 0 auto;
+	border-radius: 50%;
+}
+
+.profileImage{
+    object-fit: cover;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.aboutMeTextContainer{
+	margin: 4vh auto 0 auto;
+	padding: 1em;
+	box-sizing: border-box;
+	height: 15em;
+	width: 18em;
+	background-color: red;
+}
+
+.aboutMeHeader{
+	text-align: center;
+	font-size: 3em;
+}
+
+.aboutMeParagraph{
+	margin-top: 0.5em;
+}
+
+.anchorButtonTest{
+	margin: 4vh auto 0 auto;
+	height: 60px;
+	width: 100px;
+	background-color: orange;
+	text-align: center;
+}
