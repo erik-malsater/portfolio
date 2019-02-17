@@ -5,39 +5,41 @@
 	background-color: $primaryColor1;
     overflow: auto;
     color: white;
+
+    .profileImageFrame{
+        height: 200px;
+        width: 200px;
+        overflow: hidden;
+        margin: 3vh auto 0 auto;
+        border-radius: 50%;
+    }
+    
+    .profileImage{
+        object-fit: cover;
+        max-width: 100%;
+        min-height: 100%;
+    }
+    
+    .aboutMeTextContainer{
+        margin: 3vh auto 0 auto;
+        padding: 0.5rem;
+        box-sizing: border-box;
+        height: 15em;
+        width: 90vw;
+        background-color: $secondaryColor1;
+    }
+    
+    .aboutMeParagraph{
+        margin-top: 0.5em;
+    }
+    
+    .anchorButtonTest{
+        margin: 4vh auto 0 auto;
+        height: 60px;
+        width: 100px;
+        background-color: orange;
+        text-align: center;
+    }
 }
 
-.profileImageFrame{
-    height: 200px;
-    width: 200px;
-	overflow: hidden;
-	margin: 3vh auto 0 auto;
-	border-radius: 50%;
-}
 
-.profileImage{
-    object-fit: cover;
-    max-width: 100%;
-    min-height: 100%;
-}
-
-.aboutMeTextContainer{
-	margin: 3vh auto 0 auto;
-	padding: 0.5rem;
-	box-sizing: border-box;
-	height: 15em;
-	width: 90vw;
-	background-color: $secondaryColor1;
-}
-
-.aboutMeParagraph{
-	margin-top: 0.5em;
-}
-
-.anchorButtonTest{
-	margin: 4vh auto 0 auto;
-	height: 60px;
-	width: 100px;
-	background-color: orange;
-	text-align: center;
-}
