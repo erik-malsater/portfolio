@@ -1,21 +1,7 @@
 .portfolioProjectsContainer{
     width: 100vw;
     height: 100vh;
-    position: relative;
+    padding-top: 2rem;
+    background-color: white;
 
-    .headerSplitShadow{
-        -webkit-filter: drop-shadow(0 6px 5px rgba(128, 128, 128, 0.5));
-        filter: drop-shadow(0 6px 5px rgba(128, 128, 128, 0.5));
-    }
-
-    .headerSplit{
-        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 50%, 0 100%, 0 0);
-        clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 50%, 0 100%, 0 0);
-        width: 100vw;
-        height: 1.875rem;
-        background-color: $primaryColor1;
-        position: absolute;
-        top: -0.3125rem;
-        z-index: 10;
-    }
 }
