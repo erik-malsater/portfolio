@@ -1,9 +1,10 @@
 
 .portfolioHeader{
     width: 100vw;
-    height: 78vh;
+    //height: 78vh;
 	background-color: $primaryColor1;
     padding-top: 2rem;
+    padding-bottom: 1rem;
     color: white;
     position: relative;
     z-index: 100;
@@ -28,7 +29,7 @@
         padding: 0.5rem;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        height: 15rem;
+        //height: 15rem;
         width: 90vw;
         background-color: $secondaryColor1;
     }
