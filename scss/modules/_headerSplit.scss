@@ -9,10 +9,15 @@
     -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 50%, 0 100%, 0 0);
     clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 50%, 0 100%, 0 0);
     width: 100vw;
-    //height: 1.875rem;
     height: 3.5rem;
     background-color: $primaryColor1;
     position: absolute;
     margin-top: -0.1rem;
     z-index: 10;
+}
+
+@include tablet{
+    .headerSplit, .headerSplitShadow{
+        display: none;
+    }
 }
