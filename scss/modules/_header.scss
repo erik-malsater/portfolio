@@ -21,8 +21,8 @@
     }
     
     .profileImage{
-        -o-object-fit: cover;
-           object-fit: cover;
+           -o-object-fit: cover;
+              object-fit: cover;
         max-width: 100%;
         min-height: 100%;
     }
@@ -31,7 +31,7 @@
         margin: 3vh auto 0 auto;
         padding: 0.5rem;
         -webkit-box-sizing: border-box;
-        box-sizing: border-box;
+                box-sizing: border-box;
         width: 90vw;
         background-color: $secondaryColor1;
     }
@@ -50,8 +50,12 @@
         }
 
         .headerTabletHeadingFlexBox{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             margin: 0 auto;
         }
 
@@ -61,10 +65,16 @@
         }
 
         .headerTabletDescriptionFlexBox{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             margin: 1rem auto 2rem auto;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
 
         .profileImageFrame{
@@ -92,7 +102,6 @@
     }
 
 }
-
 
 
 

@@ -1,7 +1,7 @@
 .portfolioProjectsContainer{
     width: 100vw;
     padding-top: 4.5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 15rem;
     background-color: white;
 
     .portfolioProjectsContainerHeader{
@@ -13,9 +13,15 @@
         display: none;
     }
 
+    a{
+        display: inline-block;
+
+    }
+
     .projectBox{
 
         width: 90vw;
+        max-height: 20rem;
         margin: 0 auto;
 
         h2{
@@ -25,21 +31,40 @@
         .projectImageFrame{
 
             margin: 0 auto;
+            height: auto;
+            max-width: 40rem;
             max-height: 20rem;
             margin-bottom: 2rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            
 
             img{
-                object-fit: contain;
+                -o-object-fit: contain;
+                   object-fit: contain;
                 max-width: 90vw;
                 max-height: 20rem;
-                margin: 0 auto;
                 display: block;
-                
+                -webkit-transition: all .2s;
+                -o-transition: all .2s;
+                transition: all .2s;
                 -webkit-box-shadow: 0px 2px 37px -2px rgba(128,128,128,1);
-                -moz-box-shadow: 0px 2px 37px -2px rgba(128,128,128,1);
-                box-shadow: 0px 2px 37px -2px rgba(128,128,128,1);
+                        box-shadow: 0px 2px 37px -2px rgba(128,128,128,1);
             }
+
+            img:hover {
+                -webkit-transform: scale(1.05);
+                    -ms-transform: scale(1.05);
+                        transform: scale(1.05);
+                -webkit-box-shadow: 0px 2px 60px -20px rgba(128,128,128,1);
+                        box-shadow: 0px 2px 60px -20px rgba(128,128,128,1);
+              }
         }
+
     }
 
     @include tablet{
